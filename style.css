@@ -3,8 +3,9 @@ body{
     font-size: 20;
     background-image: url(food.webp);
 }
+
 h1{
-    text-align: center;
+    text-align: center; /*membuat tulisan ke tengah */
     font-family: sans-serif;
     font-size: x-large;
     font-weight: bold;
@@ -13,6 +14,28 @@ h1{
     background-image: url(ramadan.jpg);
     padding: 40px;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
+    background-position: center; /*membuat isi gambar bg ke tengah */
+    background-repeat: no-repeat; /*membuat gambar tidak berulang (ekspos gambar lain dalam bg) */
+}
+
+.Container{
+    width: 300px;
+    padding: 20px;
+    border: 2px black;
+    border-radius: 10px;
+    background-color:beige;
+    margin:50px auto; /* auto center*/
+    text-align: left; /*membuat tulisan panduan input ke kiri */
+    
+}
+.Container button{
+    display:block;
+    width: 100px;
+    padding: 8px;
+    margin: 15px auto 0;
+    font-size: 14px;
+    background-color: lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
 }
