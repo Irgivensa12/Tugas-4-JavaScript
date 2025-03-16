@@ -41,7 +41,7 @@ function inputNamNum(){ // Membuat function untuk membuat event handling semua t
         // Panggil metode pilihanTakjil untuk menampilkan pilihan pengguna
         pilihanTakjil(nama, jmlPil); 
     };
-    konten.appendChild(okBut); // Menambah button OK (konBut) ke kelas div id konten2 lewat variabel pilihanUser
+    konten.appendChild(okBut); // Menambah button OK (okBut) ke kelas div id konten2 lewat variabel pilihanUser
 }
 
 function pilihanTakjil(nama, jumPil){ // Membuat function ini untuk mengelola dan menampilkan hasil pilihan user
