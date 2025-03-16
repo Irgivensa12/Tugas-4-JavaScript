@@ -18,10 +18,10 @@ h1{
     font-size: x-large;
     font-weight: bold;
     color: #FFDD57;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);  /*Mengatur bayangan tulisan agar jelas */
     background-image: url(ramadan.jpg);
-    padding: 40px;
-    background-size: cover;
+    padding: 80px;  /*Mengatur jarak antar elemen (gambar) */
+    background-size: cover;  /*Mengatur background agar pas diatas dan full */
     background-position: center; /*Membuat isi gambar bg ke tengah */
     background-repeat: no-repeat; /*Membuat gambar tidak berulang (ekspos gambar lain dalam bg) */
 }
@@ -30,20 +30,20 @@ h1{
     width: 300px;
     padding: 20px;
     border: 2px black;
-    border-radius: 10px;
+    border-radius: 10px; /* Membuat sudut border menjadi melengkung atau membulat*/
     background-color:beige;
-    margin:50px auto; /* auto center*/
-    text-align: left; /*membuat tulisan panduan input ke kiri */
+    margin:50px auto; /* Auto center (Mengatur jarak border ke tengah) */
+    text-align: left; /* Membuat tulisan panduan input ke kiri */
 }
 .konten1 button{
-    display:block;
+    display:block; /* Mengatur elemen agar berpindah baris*/
     width: 100px;
     padding: 8px;
     margin: 15px auto 0;
     font-size: 14px;
     background-color: lightgray;
     border: 1px solid black;
-    cursor: pointer;
+    cursor: pointer; /* Mengubah bentuk kursor menjadi ikon tangan (pointer) ketika kursor mengarah ke buton*/
     border-radius: 5px;
 }
 
